@@ -10,7 +10,7 @@ def academic_example():
 
     concepts_O2 = {"SymposiumPublication": "Publication and (publishedIn some (Symposium))",
                    "Scholar": "T and (writes some (Publication))",
-                   "AssociateScholar": "T and (worksOn some (Initiative))"}
+                   "AssociateScholar": "Scholar and (worksOn some (Initiative))"}
 
     for C1, C1_def in concepts_O1.items():
         for C2, C2_def in concepts_O2.items():
