@@ -30,4 +30,5 @@ DeepOnto aims to provide implemented deep learning models and an evaluation plat
 References
 
 [1] Jean-Baptiste, L., 2021. Ontologies with python. Apress, Berkeley, CA.
+
 [2] He, Y., Chen, J., Dong, H., Horrocks, I., Allocca, C., Kim, T. and Sapkota, B., 2024. DeepOnto: A Python package for ontology engineering with deep learning. Semantic Web, 15(5), pp.1991-2004.
