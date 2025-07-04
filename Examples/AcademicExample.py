@@ -11,10 +11,6 @@ def academic_example():
     concepts_O2 = {"SymposiumPublication": "Publication and (publishedIn some (Symposium))",
                    "Scholar": "T and (writes some (Publication))",
                    "AssociateScholar": "T and (worksOn some (Initiative))"}
-    # concepts_O2 = {"SymposiumPublication": "Publication and (appearedIn some (Symposium))",
-    #                "Scholar": "T and (authors some (Publication))",
-    #                "AssociateScholar": "T and (authors some (Publication)) and (participatesIn some (Initiative))"}
-
 
     for C1, C1_def in concepts_O1.items():
         for C2, C2_def in concepts_O2.items():
@@ -35,18 +31,3 @@ def academic_example():
 
             print()
         print()
-
-    # T1 = expr2tree(C1, 'v')
-    # T2 = expr2tree(C2, 'w')
-    #
-    # AP = Isomorphisms(T1, T2)
-    #
-    # T1.display()
-    # T2.display()
-    #
-    # isomorphisms, df = AP.heuristics_subtree_isomorphisms()
-    #
-    # df = df.sort_values(by=['h'], ascending=True)
-    #
-    # print_df(df)
-    # print_isomorphisms(isomorphisms)
